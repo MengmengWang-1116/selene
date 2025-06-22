@@ -1,23 +1,39 @@
-<main>
-  <h2>写下你的梦吧</h2>
+<!-- record.html -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style/main.css" />
+</head>
+<body>
+  <header>
+    <button id="theme-toggle">🌓 切换主题</button>
+  </header>
 
-  <form>
-    <label for="title">梦境标题：</label><br />
-    <input type="text" id="title" name="title" required /><br /><br />
+  <main>
+    <h2>写下你的梦吧</h2>
 
-    <label for="content">梦的内容：</label><br />
-    <textarea id="content" name="content" rows="6" required></textarea><br /><br />
+    <form>
+      <label for="title">梦境标题：</label><br />
+      <input type="text" id="title" name="title" required /><br /><br />
 
-    <label for="emotion">醒来时的情绪：</label><br />
-    <select id="emotion" name="emotion">
-      <option value="happy">喜悦</option>
-      <option value="anxious">焦虑</option>
-      <option value="sad">难过</option>
-      <option value="angry">愤怒</option>
-      <option value="calm">平静</option>
-      <option value="other">其他</option>
-    </select><br /><br />
+      <label for="content">梦的内容：</label><br />
+      <textarea id="content" name="content" rows="6" required></textarea><br /><br />
 
-    <button type="submit">记录梦境</button>
-  </form>
-</main>
+      <label for="emotion">醒来时的情绪：</label><br />
+      <select id="emotion" name="emotion">
+        <option value="happy">喜悦</option>
+        <option value="anxious">焦虑</option>
+        <option value="sad">难过</option>
+        <option value="angry">愤怒</option>
+        <option value="calm">平静</option>
+        <option value="other">其他</option>
+      </select><br /><br />
+
+      <button type="submit">记录梦境</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
