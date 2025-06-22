@@ -1,0 +1,23 @@
+<main>
+  <h2>写下你的梦吧</h2>
+
+  <form>
+    <label for="title">梦境标题：</label><br />
+    <input type="text" id="title" name="title" required /><br /><br />
+
+    <label for="content">梦的内容：</label><br />
+    <textarea id="content" name="content" rows="6" required></textarea><br /><br />
+
+    <label for="emotion">醒来时的情绪：</label><br />
+    <select id="emotion" name="emotion">
+      <option value="happy">喜悦</option>
+      <option value="anxious">焦虑</option>
+      <option value="sad">难过</option>
+      <option value="angry">愤怒</option>
+      <option value="calm">平静</option>
+      <option value="other">其他</option>
+    </select><br /><br />
+
+    <button type="submit">记录梦境</button>
+  </form>
+</main>
