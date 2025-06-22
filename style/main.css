@@ -1,10 +1,21 @@
 /* style/main.css */
 body {
-  font-family: sans-serif;
-  background-color: #fff;
-  color: #222;
-  margin: 0;
-  padding: 0;
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fafafa;
+  color: #444;
+}
+
+h1, h2, h3, h4 {
+  color: #333;
+}
+
+.intro {
+  padding: 2rem;
+  background-color: #f4f4f8;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
 }
 
 header, footer {
@@ -17,4 +28,17 @@ nav a {
   margin: 0 1rem;
   text-decoration: none;
   color: #555;
+}
+
+.dream-gallery {
+  padding: 2rem;
+  background-color: #fdf6f0;
+}
+
+.dream-card {
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
